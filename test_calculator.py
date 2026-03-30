@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/path/to/directory/containing/calculator')
 import calculator
 
 def test_add():
@@ -16,3 +18,4 @@ if __name__ == "__main__":
     test_add()
     test_divide()
     print("All tests passed")
+
